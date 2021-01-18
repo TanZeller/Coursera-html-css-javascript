@@ -1,72 +1,67 @@
-#header-nav {
-	background-color: #75eeca;
-	border-color: #78cab0;
-	border-radius: 0;
-	border: 0;
-}
-
-.navbar-default .navbar-toggle {
-	border-color: #6FD2B5;
+/*Header*/
+.navbar-default {
+    background-color: rgb(255, 221, 169);
 }
 
 .navbar-brand {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+.#main-header {
+    color: solid black;
+}
+
+.divider{
+    width: 100%;
+    border-style: groove;
+}
+
+/*End of header*/
+
+/*Main guts*/
+body{
+    background-color: #D4E4FC;
+}
+
+
+article {
+    border: solid black 1px;
+    margin: 10px;
+}
+
+article p {
+    font-family: 'Lato', sans-serif;
     color: black;
 }
 
-.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
-    background-color: #A3E2CF;
+article h2 {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+section {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
 }
 
-.navbar-default .navbar-collapse,
-.navbar-default .navbar-form {
-	border-color: #6FD2B5;
+article a {
+    text-align: right;
+    text-decoration: none;
 }
 
-.navbar-nav {
-    margin: 0px -15px;
+ul {
+    font-weight: bold;
+    
 }
 
-li {
-	border-bottom: 1px solid #6FD2B5;
+#chicken-tile {
+    background-color: chartreuse;
 }
 
-li:last-child {
-	border-bottom: none;
+#beef-tile {
+    background-color: crimson;
 }
 
-li:hover {
-	background-color: #6FD2B5;
+#sushi-tile {
+    background-color: darkkhaki;
 }
-
-.navbar-nav > li > a {
-    padding-top: 15px;
-    padding-bottom: 15px;
-}
-/** End navbar**/
-
-/** Main content **/
-h1 {
-	margin-bottom: 20px;
-}
-
-article {
-	padding: 5px 15px 10px 15px;
-	margin-bottom: 20px;
-}
-
-h3 {
-	margin-top: 10px;
-}
-
-#chicken {
-	background-color: #FFF689;
-}
-
-#beef {
-	background-color: #EC0B43;
-}
-
-#sushi {
-	background-color: #D6FFB7;
-}
-/** End main content **/
