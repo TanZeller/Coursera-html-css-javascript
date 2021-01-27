@@ -1,2 +1,5 @@
 # Coursera-html-css-javascript
-Coursera HTML, CSS, JAVASCRIPT 
+HTML, CSS, and Javascript for Web Developers
+
+Offered By 
+Johns Hopkins University
